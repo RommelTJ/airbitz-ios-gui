@@ -18,8 +18,11 @@
 		3464490D4883ED4ADC6E6A18 /* Affiliate.m in Sources */ = {isa = PBXBuildFile; fileRef = 346446DF3DCE81998F436046 /* Affiliate.m */; };
 		3464491590D9099322E3B5CE /* AB.m in Sources */ = {isa = PBXBuildFile; fileRef = 346448867CF607DEED6BA49C /* AB.m */; };
 		34644BA757EFF80569B02240 /* Affiliate.m in Sources */ = {isa = PBXBuildFile; fileRef = 346446DF3DCE81998F436046 /* Affiliate.m */; };
+		34644D40356AA8C0D8E15A4C /* SSOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3464461B2934DE866F461CF6 /* SSOViewController.m */; };
 		34644D9C4171CC241B6B1609 /* AB.m in Sources */ = {isa = PBXBuildFile; fileRef = 346448867CF607DEED6BA49C /* AB.m */; };
 		34644DCDB063C438DFE4F489 /* PluginListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 346445D195B1F9C065B7CDBC /* PluginListViewController.m */; };
+		34644E64D77421AA50F21575 /* SSOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3464461B2934DE866F461CF6 /* SSOViewController.m */; };
+		34644F45643AEC0C4EC77298 /* SSOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3464461B2934DE866F461CF6 /* SSOViewController.m */; };
 		622641632C323DA8FA24E893 /* libPods-Airbitz.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 57EB4E21859E2995DDDD8745 /* libPods-Airbitz.a */; };
 		662E8C22BDCC114A855DF558 /* libPods-Airbitz-Testnet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 71B0BD77B76AD89B6C321C0C /* libPods-Airbitz-Testnet.a */; };
 		8E86114A1D59B9E90051FD8C /* bitrefill.html in Resources */ = {isa = PBXBuildFile; fileRef = 8E8611491D59B9E90051FD8C /* bitrefill.html */; };
@@ -35,9 +38,11 @@
 		DA10BDE11C00280E0086AD8B /* foldapp.html in Resources */ = {isa = PBXBuildFile; fileRef = DA10BDE01C00280E0086AD8B /* foldapp.html */; };
 		DA10BDE21C00280E0086AD8B /* foldapp.html in Resources */ = {isa = PBXBuildFile; fileRef = DA10BDE01C00280E0086AD8B /* foldapp.html */; };
 		DA10BDE31C00280E0086AD8B /* foldapp.html in Resources */ = {isa = PBXBuildFile; fileRef = DA10BDE01C00280E0086AD8B /* foldapp.html */; };
-		DA3C75BC1D288FF100119510 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA3C75B51D288FF100119510 /* Localizable.strings */; };
-		DA3C75BD1D288FF100119510 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA3C75B51D288FF100119510 /* Localizable.strings */; };
-		DA3C75BE1D288FF100119510 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA3C75B51D288FF100119510 /* Localizable.strings */; };
+		DA26CE981D72489D00051F41 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA26CE911D72489D00051F41 /* Localizable.strings */; };
+		DA26CE991D72489D00051F41 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA26CE911D72489D00051F41 /* Localizable.strings */; };
+		DA26CE9A1D72489D00051F41 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA26CE911D72489D00051F41 /* Localizable.strings */; };
+		DA3508311D67670B00041EB1 /* bitrefill.html in Resources */ = {isa = PBXBuildFile; fileRef = 8E8611491D59B9E90051FD8C /* bitrefill.html */; };
+		DA3508321D67670C00041EB1 /* bitrefill.html in Resources */ = {isa = PBXBuildFile; fileRef = 8E8611491D59B9E90051FD8C /* bitrefill.html */; };
 		DA3C7A881C2E3DF200599E3D /* plugin_icon_walmart@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA3C7A871C2E3DF200599E3D /* plugin_icon_walmart@2x.png */; };
 		DA3C7A891C2E3DF200599E3D /* plugin_icon_walmart@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA3C7A871C2E3DF200599E3D /* plugin_icon_walmart@2x.png */; };
 		DA3C7A8A1C2E3DF200599E3D /* plugin_icon_walmart@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA3C7A871C2E3DF200599E3D /* plugin_icon_walmart@2x.png */; };
@@ -53,10 +58,6 @@
 		DA4902991D1F3BEC00F34324 /* MiniDropDownAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA4902951D1F3BEC00F34324 /* MiniDropDownAlertView.xib */; };
 		DA49029A1D1F3BEC00F34324 /* MiniDropDownAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA4902951D1F3BEC00F34324 /* MiniDropDownAlertView.xib */; };
 		DA49029B1D1F3BEC00F34324 /* MiniDropDownAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA4902951D1F3BEC00F34324 /* MiniDropDownAlertView.xib */; };
-		DA4977831D226054006521D2 /* Airbitz-Develop-InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DAB06AEA1D16D02100050098 /* Airbitz-Develop-InfoPlist.strings */; };
-		DA4977841D226054006521D2 /* Airbitz-Develop-InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DAB06AEA1D16D02100050098 /* Airbitz-Develop-InfoPlist.strings */; };
-		DA4977851D226054006521D2 /* Airbitz-Testnet-InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DAB06AED1D16D02A00050098 /* Airbitz-Testnet-InfoPlist.strings */; };
-		DA4977861D226054006521D2 /* Airbitz-Testnet-InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DAB06AED1D16D02A00050098 /* Airbitz-Testnet-InfoPlist.strings */; };
 		DA4A13F41CFEC8400097EF31 /* fingerprint-wht.png in Resources */ = {isa = PBXBuildFile; fileRef = DA4A13F11CFEC8400097EF31 /* fingerprint-wht.png */; };
 		DA4A13F51CFEC8400097EF31 /* fingerprint-wht.png in Resources */ = {isa = PBXBuildFile; fileRef = DA4A13F11CFEC8400097EF31 /* fingerprint-wht.png */; };
 		DA4A13F61CFEC8400097EF31 /* fingerprint-wht.png in Resources */ = {isa = PBXBuildFile; fileRef = DA4A13F11CFEC8400097EF31 /* fingerprint-wht.png */; };
@@ -1175,11 +1176,6 @@
 		DA9EF6D01BC729FA0063DA07 /* logo_large@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9EDFB41BC61F920063DA07 /* logo_large@2x.png */; };
 		DA9EF6D21BC729FA0063DA07 /* btn_close_white.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9EDF261BC61F910063DA07 /* btn_close_white.png */; };
 		DAB06AE41D1677ED00050098 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAB06AE61D1677ED00050098 /* MainInterface.storyboard */; };
-		DAB06AE91D16D01800050098 /* Airbitz-InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DAB06AE71D16D01800050098 /* Airbitz-InfoPlist.strings */; };
-		DAB06AEC1D16D02100050098 /* Airbitz-Develop-InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DAB06AEA1D16D02100050098 /* Airbitz-Develop-InfoPlist.strings */; };
-		DAB06AEF1D16D02A00050098 /* Airbitz-Testnet-InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DAB06AED1D16D02A00050098 /* Airbitz-Testnet-InfoPlist.strings */; };
-		DAB06B251D171D3D00050098 /* Airbitz-InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DAB06AE71D16D01800050098 /* Airbitz-InfoPlist.strings */; };
-		DAB06B481D17230900050098 /* Airbitz-InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DAB06AE71D16D01800050098 /* Airbitz-InfoPlist.strings */; };
 		DAB5C01F1C9FBD0800CE4993 /* logo_icon_full@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAB5C01E1C9FBD0800CE4993 /* logo_icon_full@2x.png */; };
 		DAB5C0201C9FBD0800CE4993 /* logo_icon_full@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAB5C01E1C9FBD0800CE4993 /* logo_icon_full@2x.png */; };
 		DAB5C0211C9FBD0800CE4993 /* logo_icon_full@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAB5C01E1C9FBD0800CE4993 /* logo_icon_full@2x.png */; };
@@ -1209,6 +1205,9 @@
 		DAD1AD7F1BC6065100C648C4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD1AD7E1BC6065100C648C4 /* AppDelegate.m */; };
 		DAD1AD951BC6065100C648C4 /* AirbitzTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD1AD941BC6065100C648C4 /* AirbitzTests.m */; };
 		DAD1ADA01BC6065100C648C4 /* AirbitzUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD1AD9F1BC6065100C648C4 /* AirbitzUITests.m */; };
+		DAD4B5E11D70065E00C1E320 /* UtilityTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD4B5E01D70065E00C1E320 /* UtilityTableViewController.m */; };
+		DAD4B5E21D70065E00C1E320 /* UtilityTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD4B5E01D70065E00C1E320 /* UtilityTableViewController.m */; };
+		DAD4B5E31D70065E00C1E320 /* UtilityTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD4B5E01D70065E00C1E320 /* UtilityTableViewController.m */; };
 		DADFAC2A1D29F59C006798D5 /* email_template_simple.html in Resources */ = {isa = PBXBuildFile; fileRef = DADFAC061D29F59C006798D5 /* email_template_simple.html */; };
 		DADFAC2B1D29F59C006798D5 /* email_template_simple.html in Resources */ = {isa = PBXBuildFile; fileRef = DADFAC061D29F59C006798D5 /* email_template_simple.html */; };
 		DADFAC2C1D29F59C006798D5 /* email_template_simple.html in Resources */ = {isa = PBXBuildFile; fileRef = DADFAC061D29F59C006798D5 /* email_template_simple.html */; };
@@ -1281,6 +1280,10 @@
 		DAE951601D5C02230060501F /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAE9515F1D5C02230060501F /* AddressBook.framework */; };
 		DAE951651D5C022F0060501F /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAE9515F1D5C02230060501F /* AddressBook.framework */; };
 		DAE951661D5C02380060501F /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAE9515F1D5C02230060501F /* AddressBook.framework */; };
+		DAF024C11DB2C10B00FF815F /* barcode-bracket@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF024C01DB2C10B00FF815F /* barcode-bracket@2x.png */; };
+		DAF024C21DB2C10B00FF815F /* barcode-bracket@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF024C01DB2C10B00FF815F /* barcode-bracket@2x.png */; };
+		DAF024C31DB2C10B00FF815F /* barcode-bracket@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF024C01DB2C10B00FF815F /* barcode-bracket@2x.png */; };
+		DAF024C41DB2C10B00FF815F /* barcode-bracket@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF024C01DB2C10B00FF815F /* barcode-bracket@2x.png */; };
 		F6CF2CD47C8D9E358BBD6855 /* libPods-Airbitz-OSX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5319AB81AC43EB8DC5CE9A62 /* libPods-Airbitz-OSX.a */; };
 /* End PBXBuildFile section */
 
@@ -1369,12 +1372,14 @@
 		3464423FFD78CBD7BC1D7172 /* SignUpPINController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpPINController.h; sourceTree = "<group>"; };
 		346442B19C664D7BA4B070CF /* SignUpPINController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = SignUpPINController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		346445D195B1F9C065B7CDBC /* PluginListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PluginListViewController.m; sourceTree = "<group>"; };
+		3464461B2934DE866F461CF6 /* SSOViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSOViewController.m; sourceTree = "<group>"; };
 		346446DF3DCE81998F436046 /* Affiliate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Affiliate.m; sourceTree = "<group>"; };
 		3464482EF1B9232A7ED8A342 /* Affiliate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = Affiliate.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		346448867CF607DEED6BA49C /* AB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AB.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		34644A774ED9B0786711E100 /* BrandStrings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandStrings.h; sourceTree = "<group>"; };
 		34644A95F98F7C787C35866F /* Strings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Strings.h; sourceTree = "<group>"; };
 		34644B5A90803E3840979781 /* PluginListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PluginListViewController.h; sourceTree = "<group>"; };
+		34644D1324098851616413EC /* SSOViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSOViewController.h; sourceTree = "<group>"; };
 		34644D19B9AA8C31AD9453F3 /* AB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = AB.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		487413F047376D04BC7DA055 /* Pods-Airbitz-Testnet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; lineEnding = 0; name = "Pods-Airbitz-Testnet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Airbitz-Testnet/Pods-Airbitz-Testnet.debug.xcconfig"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.xcconfig; };
 		4D304BEAD9B3844D249514BD /* Pods-Airbitz-OSX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; lineEnding = 0; name = "Pods-Airbitz-OSX.release.xcconfig"; path = "Pods/Target Support Files/Pods-Airbitz-OSX/Pods-Airbitz-OSX.release.xcconfig"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.xcconfig; };
@@ -1384,7 +1389,7 @@
 		5E2C6B7E68F965414F5744C1 /* Pods-Airbitz-Develop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; lineEnding = 0; name = "Pods-Airbitz-Develop.release.xcconfig"; path = "Pods/Target Support Files/Pods-Airbitz-Develop/Pods-Airbitz-Develop.release.xcconfig"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.xcconfig; };
 		6CDA9573B3C8A12BF2AD9F06 /* Pods-Airbitz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; lineEnding = 0; name = "Pods-Airbitz.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Airbitz/Pods-Airbitz.debug.xcconfig"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.xcconfig; };
 		71B0BD77B76AD89B6C321C0C /* libPods-Airbitz-Testnet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Airbitz-Testnet.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E8611491D59B9E90051FD8C /* bitrefill.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = bitrefill.html; path = Airbitz/Resources/plugins/bitrefill.html; sourceTree = "<group>"; };
+		8E8611491D59B9E90051FD8C /* bitrefill.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = bitrefill.html; sourceTree = "<group>"; };
 		C242315399612849F0B009B1 /* Pods-Airbitz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; lineEnding = 0; name = "Pods-Airbitz.release.xcconfig"; path = "Pods/Target Support Files/Pods-Airbitz/Pods-Airbitz.release.xcconfig"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.xcconfig; };
 		DA0BA5B01D29F5F60080D5C8 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = pt; path = pt.lproj/email_template_simple.html; sourceTree = "<group>"; };
 		DA0BA5B11D29F5F60080D5C8 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = pt; path = pt.lproj/email_template.html; sourceTree = "<group>"; };
@@ -1463,12 +1468,12 @@
 		DA10BB971BFF90980086AD8B /* background@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "background@2x.jpg"; sourceTree = "<group>"; };
 		DA10BDE01C00280E0086AD8B /* foldapp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = foldapp.html; sourceTree = "<group>"; };
 		DA1EB8241C168F2B0059734C /* BrandTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandTheme.h; sourceTree = "<group>"; };
-		DA3C75B61D288FF100119510 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = SOURCE_ROOT; };
-		DA3C75B71D288FF100119510 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/Localizable.strings; sourceTree = SOURCE_ROOT; };
-		DA3C75B81D288FF100119510 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = SOURCE_ROOT; };
-		DA3C75B91D288FF100119510 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = SOURCE_ROOT; };
-		DA3C75BA1D288FF100119510 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/Localizable.strings; sourceTree = SOURCE_ROOT; };
-		DA3C75BB1D288FF100119510 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = SOURCE_ROOT; };
+		DA26CE921D72489D00051F41 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = SOURCE_ROOT; };
+		DA26CE931D72489D00051F41 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = SOURCE_ROOT; };
+		DA26CE941D72489D00051F41 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = SOURCE_ROOT; };
+		DA26CE951D72489D00051F41 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/Localizable.strings; sourceTree = SOURCE_ROOT; };
+		DA26CE961D72489D00051F41 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = SOURCE_ROOT; };
+		DA26CE971D72489D00051F41 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/Localizable.strings; sourceTree = SOURCE_ROOT; };
 		DA3C7A871C2E3DF200599E3D /* plugin_icon_walmart@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plugin_icon_walmart@2x.png"; sourceTree = "<group>"; };
 		DA3C7A8B1C2E3E7A00599E3D /* plugin_icon_wholefoods@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plugin_icon_wholefoods@2x.png"; sourceTree = "<group>"; };
 		DA3C7A8F1C2E3F4000599E3D /* plugin_icon_homedepot@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plugin_icon_homedepot@2x.png"; sourceTree = "<group>"; };
@@ -2051,24 +2056,6 @@
 		DAB06A3F1D14B28300050098 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = "de.lproj/WalletMakerView~iphone.strings"; sourceTree = "<group>"; };
 		DAB06A401D14B28300050098 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = "de.lproj/CalculatorView~iphone.strings"; sourceTree = "<group>"; };
 		DAB06AE51D1677ED00050098 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
-		DAB06AE81D16D01800050098 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = "Base.lproj/Airbitz-InfoPlist.strings"; sourceTree = "<group>"; };
-		DAB06AEB1D16D02100050098 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = "Base.lproj/Airbitz-Develop-InfoPlist.strings"; sourceTree = "<group>"; };
-		DAB06AEE1D16D02A00050098 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = "Base.lproj/Airbitz-Testnet-InfoPlist.strings"; sourceTree = "<group>"; };
-		DAB06AF01D16D04000050098 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = "es.lproj/Airbitz-InfoPlist.strings"; sourceTree = "<group>"; };
-		DAB06AF11D16D04300050098 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = "pt.lproj/Airbitz-InfoPlist.strings"; sourceTree = "<group>"; };
-		DAB06AF31D16D04400050098 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = "hi.lproj/Airbitz-InfoPlist.strings"; sourceTree = "<group>"; };
-		DAB06AF41D16D04500050098 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = "fr.lproj/Airbitz-InfoPlist.strings"; sourceTree = "<group>"; };
-		DAB06AF51D16D04600050098 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = "de.lproj/Airbitz-InfoPlist.strings"; sourceTree = "<group>"; };
-		DAB06AF61D16D04900050098 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = "es.lproj/Airbitz-Develop-InfoPlist.strings"; sourceTree = "<group>"; };
-		DAB06AF81D16D04C00050098 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = "pt.lproj/Airbitz-Develop-InfoPlist.strings"; sourceTree = "<group>"; };
-		DAB06AF91D16D04E00050098 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = "hi.lproj/Airbitz-Develop-InfoPlist.strings"; sourceTree = "<group>"; };
-		DAB06AFA1D16D04E00050098 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = "fr.lproj/Airbitz-Develop-InfoPlist.strings"; sourceTree = "<group>"; };
-		DAB06AFB1D16D04F00050098 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = "de.lproj/Airbitz-Develop-InfoPlist.strings"; sourceTree = "<group>"; };
-		DAB06AFC1D16D05300050098 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = "es.lproj/Airbitz-Testnet-InfoPlist.strings"; sourceTree = "<group>"; };
-		DAB06AFD1D16D05400050098 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = "pt.lproj/Airbitz-Testnet-InfoPlist.strings"; sourceTree = "<group>"; };
-		DAB06AFF1D16D05600050098 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = "hi.lproj/Airbitz-Testnet-InfoPlist.strings"; sourceTree = "<group>"; };
-		DAB06B001D16D05700050098 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = "fr.lproj/Airbitz-Testnet-InfoPlist.strings"; sourceTree = "<group>"; };
-		DAB06B011D16D05800050098 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = "de.lproj/Airbitz-Testnet-InfoPlist.strings"; sourceTree = "<group>"; };
 		DAB06B271D17221A00050098 /* zh */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh; path = zh.lproj/AccountCreate.strings; sourceTree = "<group>"; };
 		DAB06B281D17221A00050098 /* zh */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh; path = zh.lproj/BusinessDirectory.strings; sourceTree = "<group>"; };
 		DAB06B291D17221A00050098 /* zh */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh; path = zh.lproj/ConfirmationSliderView.strings; sourceTree = "<group>"; };
@@ -2081,9 +2068,6 @@
 		DAB06B301D17221B00050098 /* zh */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh; path = "zh.lproj/WalletMakerView~iphone.strings"; sourceTree = "<group>"; };
 		DAB06B311D17221B00050098 /* zh */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh; path = "zh.lproj/CalculatorView~iphone.strings"; sourceTree = "<group>"; };
 		DAB06B321D17223500050098 /* zh */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh; path = zh.lproj/MainInterface.strings; sourceTree = "<group>"; };
-		DAB06B451D1722F400050098 /* zh */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh; path = "zh.lproj/Airbitz-Develop-InfoPlist.strings"; sourceTree = "<group>"; };
-		DAB06B461D1722FE00050098 /* zh */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh; path = "zh.lproj/Airbitz-InfoPlist.strings"; sourceTree = "<group>"; };
-		DAB06B471D17230900050098 /* zh */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh; path = "zh.lproj/Airbitz-Testnet-InfoPlist.strings"; sourceTree = "<group>"; };
 		DAB06B501D1A32DA00050098 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/MainInterface.strings; sourceTree = "<group>"; };
 		DAB06B6D1D1A7E2C00050098 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/MainInterface.strings; sourceTree = "<group>"; };
 		DAB06B731D1A7E7B00050098 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/MainInterface.strings; sourceTree = "<group>"; };
@@ -2117,6 +2101,8 @@
 		DAD1AD941BC6065100C648C4 /* AirbitzTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AirbitzTests.m; sourceTree = "<group>"; };
 		DAD1AD9B1BC6065100C648C4 /* AirbitzUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirbitzUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAD1AD9F1BC6065100C648C4 /* AirbitzUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AirbitzUITests.m; sourceTree = "<group>"; };
+		DAD4B5DF1D70065E00C1E320 /* UtilityTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilityTableViewController.h; sourceTree = "<group>"; };
+		DAD4B5E01D70065E00C1E320 /* UtilityTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UtilityTableViewController.m; sourceTree = "<group>"; };
 		DAD84F831D29F6C100CA5DB5 /* zh-CN */ = {isa = PBXFileReference; lastKnownFileType = text; name = "zh-CN"; path = "zh-CN.lproj/sms_template.txt"; sourceTree = "<group>"; };
 		DAD84F881D29F6C700CA5DB5 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text; name = "pt-BR"; path = "pt-BR.lproj/sms_template.txt"; sourceTree = "<group>"; };
 		DAD84F891D29F6CE00CA5DB5 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text; name = "zh-Hans"; path = "zh-Hans.lproj/sms_template.txt"; sourceTree = "<group>"; };
@@ -2296,6 +2282,7 @@
 		DAE1BE461CC37883003494AB /* MainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = MainController.m; path = "Airbitz-Common/MainController.m"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		DAE5464A1D29F6780065F926 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text; name = Base; path = Base.lproj/sms_template.txt; sourceTree = "<group>"; };
 		DAE9515F1D5C02230060501F /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		DAF024C01DB2C10B00FF815F /* barcode-bracket@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "barcode-bracket@2x.png"; sourceTree = "<group>"; };
 		E151281836D6BEFF1426BFBA /* Pods-Airbitz-Develop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; lineEnding = 0; name = "Pods-Airbitz-Develop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Airbitz-Develop/Pods-Airbitz-Develop.debug.xcconfig"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.xcconfig; };
 		F33667E88DB069C7002CD36A /* Pods-Airbitz-OSX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; lineEnding = 0; name = "Pods-Airbitz-OSX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Airbitz-OSX/Pods-Airbitz-OSX.debug.xcconfig"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.xcconfig; };
 /* End PBXFileReference section */
@@ -2748,6 +2735,7 @@
 				DA10BB971BFF90980086AD8B /* background@2x.jpg */,
 				DA9EDF051BC61F910063DA07 /* background_launch.png */,
 				DA9EDF071BC61F910063DA07 /* bd_icon_clock@2x.png */,
+				DAF024C01DB2C10B00FF815F /* barcode-bracket@2x.png */,
 				DA9EDF081BC61F910063DA07 /* bd_icon_facebook@2x.png */,
 				DA9EDF091BC61F910063DA07 /* bd_icon_foursquare@2x.png */,
 				DA9EDF0A1BC61F910063DA07 /* bd_icon_location@2x.png */,
@@ -3007,6 +2995,7 @@
 		DA9EDFEC1BC61F920063DA07 /* plugins */ = {
 			isa = PBXGroup;
 			children = (
+				8E8611491D59B9E90051FD8C /* bitrefill.html */,
 				DABF60F01C10263A004E613B /* clevercoin.html */,
 				DA10BDE01C00280E0086AD8B /* foldapp.html */,
 				DA9EDFED1BC61F920063DA07 /* glidera.html */,
@@ -3225,6 +3214,8 @@
 				DA9EE0971BC61F920063DA07 /* WalletMakerView.h */,
 				DA9EE0981BC61F920063DA07 /* WalletMakerView.m */,
 				DA9EE09A1BC61F920063DA07 /* WalletsViewController.h */,
+				3464461B2934DE866F461CF6 /* SSOViewController.m */,
+				34644D1324098851616413EC /* SSOViewController.h */,
 			);
 			path = Wallets;
 			sourceTree = "<group>";
@@ -3257,7 +3248,6 @@
 		DAD1AD6E1BC6065100C648C4 = {
 			isa = PBXGroup;
 			children = (
-				8E8611491D59B9E90051FD8C /* bitrefill.html */,
 				DAE1BE3E1CC37846003494AB /* Airbitz-Common */,
 				DAD1AD791BC6065100C648C4 /* Airbitz */,
 				DAD1AD931BC6065100C648C4 /* AirbitzTests */,
@@ -3291,11 +3281,8 @@
 		DAD1AD791BC6065100C648C4 /* Airbitz */ = {
 			isa = PBXGroup;
 			children = (
-				DA3C75B51D288FF100119510 /* Localizable.strings */,
+				DA26CE911D72489D00051F41 /* Localizable.strings */,
 				DA9EEFB51BC722770063DA07 /* Airbitz.entitlements */,
-				DAB06AE71D16D01800050098 /* Airbitz-InfoPlist.strings */,
-				DAB06AEA1D16D02100050098 /* Airbitz-Develop-InfoPlist.strings */,
-				DAB06AED1D16D02A00050098 /* Airbitz-Testnet-InfoPlist.strings */,
 				DA9ED8031BC61F8F0063DA07 /* Business Directory */,
 				DA9ED82F1BC61F8F0063DA07 /* DDData */,
 				DA9ED8361BC61F8F0063DA07 /* FadingAlert */,
@@ -3400,6 +3387,8 @@
 				DA9ED7C81BC61E680063DA07 /* UIImage+Colorize.m */,
 				DA9ED7C91BC61E680063DA07 /* Util.h */,
 				DA9ED7CA1BC61E680063DA07 /* Util.m */,
+				DAD4B5DF1D70065E00C1E320 /* UtilityTableViewController.h */,
+				DAD4B5E01D70065E00C1E320 /* UtilityTableViewController.m */,
 				DAD1AD7A1BC6065100C648C4 /* Supporting Files */,
 				346448867CF607DEED6BA49C /* AB.m */,
 				34644D19B9AA8C31AD9453F3 /* AB.h */,
@@ -3449,12 +3438,15 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DA9D8F851CC0C191006A8C0A /* Build configuration list for PBXNativeTarget "Airbitz-OSX" */;
 			buildPhases = (
-				8098D09DC906C087001E94A0 /* 📦 Check Pods Manifest.lock */,
+				0EF999E02DE12E9F3996B6EC /* 📦 Check Pods Manifest.lock */,
+				8098D09DC906C087001E94A0 /* uD83DuDCE6 Check Pods Manifest.lock */,
 				DA9D8F501CC0C191006A8C0A /* Sources */,
 				DA9D8F511CC0C191006A8C0A /* Frameworks */,
 				DA9D8F521CC0C191006A8C0A /* Resources */,
-				F736412B2F002033811E3ECD /* 📦 Embed Pods Frameworks */,
-				EB1F9F1B010317F8520994B9 /* 📦 Copy Pods Resources */,
+				F736412B2F002033811E3ECD /* uD83DuDCE6 Embed Pods Frameworks */,
+				EB1F9F1B010317F8520994B9 /* uD83DuDCE6 Copy Pods Resources */,
+				4CAE7B5AA63F0F42B417762B /* 📦 Embed Pods Frameworks */,
+				AA20A8E95F2846F43DCC4CD0 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -3522,12 +3514,15 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DA9EF5101BC7285D0063DA07 /* Build configuration list for PBXNativeTarget "Airbitz-Develop" */;
 			buildPhases = (
-				A4A2902C0CC41F6230966708 /* 📦 Check Pods Manifest.lock */,
+				46B0B9D5591E42E896DB53E0 /* 📦 Check Pods Manifest.lock */,
+				A4A2902C0CC41F6230966708 /* uD83DuDCE6 Check Pods Manifest.lock */,
 				DA9EF3501BC7285D0063DA07 /* Sources */,
 				DA9EF3DA1BC7285D0063DA07 /* Frameworks */,
 				DA9EF4021BC7285D0063DA07 /* Resources */,
-				C8206127E5601AA2C80919B3 /* 📦 Embed Pods Frameworks */,
-				77521873930B17B23434AFD3 /* 📦 Copy Pods Resources */,
+				C8206127E5601AA2C80919B3 /* uD83DuDCE6 Embed Pods Frameworks */,
+				77521873930B17B23434AFD3 /* uD83DuDCE6 Copy Pods Resources */,
+				E4AB2D4B32648E8C3AEB7904 /* 📦 Embed Pods Frameworks */,
+				304C82C1076D8CA8C89E01B8 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -3542,12 +3537,15 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DA9EF6D51BC729FA0063DA07 /* Build configuration list for PBXNativeTarget "Airbitz-Testnet" */;
 			buildPhases = (
-				07AA425DC801DD902C371688 /* 📦 Check Pods Manifest.lock */,
+				36185E2FCBC1542FB7BEE6E1 /* 📦 Check Pods Manifest.lock */,
+				07AA425DC801DD902C371688 /* uD83DuDCE6 Check Pods Manifest.lock */,
 				DA9EF5171BC729FA0063DA07 /* Sources */,
 				DA9EF5A11BC729FA0063DA07 /* Frameworks */,
 				DA9EF5C91BC729FA0063DA07 /* Resources */,
-				148495570A5C654A9580E66E /* 📦 Embed Pods Frameworks */,
-				362598A803D456F4E4BF374A /* 📦 Copy Pods Resources */,
+				148495570A5C654A9580E66E /* uD83DuDCE6 Embed Pods Frameworks */,
+				362598A803D456F4E4BF374A /* uD83DuDCE6 Copy Pods Resources */,
+				656EB90AAC0A5CD7943330A3 /* 📦 Embed Pods Frameworks */,
+				2EC4A662EF02880A27A5993B /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -3562,13 +3560,16 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DAD1ADA41BC6065100C648C4 /* Build configuration list for PBXNativeTarget "Airbitz" */;
 			buildPhases = (
-				84E4F0AEEF0E1054D0334101 /* 📦 Check Pods Manifest.lock */,
+				C782C142C05CBA2C42285091 /* 📦 Check Pods Manifest.lock */,
+				84E4F0AEEF0E1054D0334101 /* uD83DuDCE6 Check Pods Manifest.lock */,
 				DAD1AD731BC6065100C648C4 /* Sources */,
 				DAD1AD741BC6065100C648C4 /* Frameworks */,
 				DAD1AD751BC6065100C648C4 /* Resources */,
-				AC39B6D1FB9EDE1712613FD4 /* 📦 Embed Pods Frameworks */,
-				0AF405240848F7D4E657A31C /* 📦 Copy Pods Resources */,
+				AC39B6D1FB9EDE1712613FD4 /* uD83DuDCE6 Embed Pods Frameworks */,
+				0AF405240848F7D4E657A31C /* uD83DuDCE6 Copy Pods Resources */,
 				DABFC98D1CFBC89400104AC1 /* Embed App Extensions */,
+				4D1411765C8B62805AE86C22 /* 📦 Embed Pods Frameworks */,
+				3B3AF4AE172796DA27F53DF5 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -3778,6 +3779,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAF024C41DB2C10B00FF815F /* barcode-bracket@2x.png in Resources */,
 				DA9EEFB91BC724B00063DA07 /* QR-bracket.png in Resources */,
 				DAB06AE41D1677ED00050098 /* MainInterface.storyboard in Resources */,
 				DA9EEFB01BC70E0C0063DA07 /* Images.xcassets in Resources */,
@@ -3832,7 +3834,6 @@
 				DA57A1F41D131CAD005442AF /* CalculatorView~iphone.xib in Resources */,
 				DA10BDE21C00280E0086AD8B /* foldapp.html in Resources */,
 				DA9EF43B1BC7285D0063DA07 /* icon_category_atm.png in Resources */,
-				DAB06B251D171D3D00050098 /* Airbitz-InfoPlist.strings in Resources */,
 				DA9EF43C1BC7285D0063DA07 /* icon_transactions@3x.png in Resources */,
 				DA9EF43D1BC7285D0063DA07 /* icon_category_shopping@3x.png in Resources */,
 				DA9EF43E1BC7285D0063DA07 /* icon_directory@3x.png in Resources */,
@@ -3951,7 +3952,6 @@
 				DAE5464C1D29F6780065F926 /* sms_template.txt in Resources */,
 				DA9EF4AE1BC7285D0063DA07 /* icon_wallet@3x.png in Resources */,
 				DA9EF4B01BC7285D0063DA07 /* thumb@2x.png in Resources */,
-				DA3C75BD1D288FF100119510 /* Localizable.strings in Resources */,
 				DA3C7A911C2E3F4000599E3D /* plugin_icon_homedepot@2x.png in Resources */,
 				DA3C7A8D1C2E3E7A00599E3D /* plugin_icon_wholefoods@2x.png in Resources */,
 				DA57A13F1D131417005442AF /* ScanView~iphone.xib in Resources */,
@@ -3995,7 +3995,6 @@
 				DA9EF4D61BC7285D0063DA07 /* icon_request@2x.png in Resources */,
 				DA9EF4D71BC7285D0063DA07 /* password_dot@2x.png in Resources */,
 				DA9EF4D81BC7285D0063DA07 /* ico_nav_directory_dark@2x.png in Resources */,
-				DAB06AEC1D16D02100050098 /* Airbitz-Develop-InfoPlist.strings in Resources */,
 				DA57A1531D1316BD005442AF /* QuestionAnswerView~iphone.xib in Resources */,
 				DA9EF4D91BC7285D0063DA07 /* AnnotationContentView.xib in Resources */,
 				DA9EF4DA1BC7285D0063DA07 /* icon_location@2x.png in Resources */,
@@ -4003,10 +4002,10 @@
 				DA9EF4DD1BC7285D0063DA07 /* btn_collapse_expand.png in Resources */,
 				DA49029A1D1F3BEC00F34324 /* MiniDropDownAlertView.xib in Resources */,
 				DA9EF4DE1BC7285D0063DA07 /* WalletExportQuicken.QIF in Resources */,
+				DAF024C21DB2C10B00FF815F /* barcode-bracket@2x.png in Resources */,
 				DA9EF4E01BC7285D0063DA07 /* FadingAlertViewNew.xib in Resources */,
 				DA9EF4E11BC7285D0063DA07 /* BitcoinSent.mp3 in Resources */,
 				DA9EF4E21BC7285D0063DA07 /* QR-bracket.png in Resources */,
-				DA4977861D226054006521D2 /* Airbitz-Testnet-InfoPlist.strings in Resources */,
 				DA9EF4E31BC7285D0063DA07 /* bitCoinAnnotation@2x.png in Resources */,
 				DA9EF4E41BC7285D0063DA07 /* icon_category_coffee_tea@3x.png in Resources */,
 				DA9EF4E61BC7285D0063DA07 /* icon_exchange.png in Resources */,
@@ -4015,6 +4014,7 @@
 				DA9EF4E91BC7285D0063DA07 /* icon_category_shopping@2x.png in Resources */,
 				DADFAC5E1D29F59C006798D5 /* transaction_details.html in Resources */,
 				DABA012D1C111D59008702AB /* plugin_icon_target@2x.png in Resources */,
+				DA26CE991D72489D00051F41 /* Localizable.strings in Resources */,
 				DA9EF4EA1BC7285D0063DA07 /* btn_add@4x.png in Resources */,
 				DA9EF4EB1BC7285D0063DA07 /* bd_icon_phone@2x.png in Resources */,
 				DADFAC2E1D29F59C006798D5 /* email_template.html in Resources */,
@@ -4026,6 +4026,7 @@
 				DA9EF4EE1BC7285D0063DA07 /* icon_send.png in Resources */,
 				DA9EF4EF1BC7285D0063DA07 /* flash-on@2x.png in Resources */,
 				DA9EF4F01BC7285D0063DA07 /* btn_collapse_expand@2x.png in Resources */,
+				DA3508311D67670B00041EB1 /* bitrefill.html in Resources */,
 				DA57A13B1D1309C4005442AF /* WalletHeaderView~iphone.xib in Resources */,
 				DA9EF4F11BC7285D0063DA07 /* icon_send_padded@2x.png in Resources */,
 				DA9EF4F21BC7285D0063DA07 /* bd_icon_yelp@2x.png in Resources */,
@@ -4099,7 +4100,6 @@
 				DA57A1F51D131CAD005442AF /* CalculatorView~iphone.xib in Resources */,
 				DA10BDE31C00280E0086AD8B /* foldapp.html in Resources */,
 				DA9EF6021BC729FA0063DA07 /* icon_category_atm.png in Resources */,
-				DAB06B481D17230900050098 /* Airbitz-InfoPlist.strings in Resources */,
 				DA9EF6031BC729FA0063DA07 /* icon_transactions@3x.png in Resources */,
 				DA9EF6041BC729FA0063DA07 /* icon_category_shopping@3x.png in Resources */,
 				DA9EF6051BC729FA0063DA07 /* icon_directory@3x.png in Resources */,
@@ -4107,7 +4107,6 @@
 				DA9EF6071BC729FA0063DA07 /* BitcoinReceived.mp3 in Resources */,
 				DADFAC4D1D29F59C006798D5 /* info_settings.html in Resources */,
 				DA9EF6081BC729FA0063DA07 /* icon_wallet@2x.png in Resources */,
-				DAB06AEF1D16D02A00050098 /* Airbitz-Testnet-InfoPlist.strings in Resources */,
 				DA57A1C81D131C6E005442AF /* AccountCreate.storyboard in Resources */,
 				DA9EF6091BC729FA0063DA07 /* icon_export_sdcard@2x.png in Resources */,
 				DA9EF60A1BC729FA0063DA07 /* btn_slide_to_confirm@2x.png in Resources */,
@@ -4171,7 +4170,6 @@
 				DA9EF6461BC729FA0063DA07 /* icon_bitcoin_symbol.png in Resources */,
 				DA9EF6471BC729FA0063DA07 /* icon_export_printer@2x.png in Resources */,
 				DA57A1D21D131C76005442AF /* ConfirmationSliderView.xib in Resources */,
-				DA4977841D226054006521D2 /* Airbitz-Develop-InfoPlist.strings in Resources */,
 				DABF60F71C1027C1004E613B /* clevercoin.html in Resources */,
 				DA9EF6481BC729FA0063DA07 /* icon_directory@2x.png in Resources */,
 				DA9EF6491BC729FA0063DA07 /* BLE_photo@2x.png in Resources */,
@@ -4218,7 +4216,6 @@
 				DAE5464D1D29F6780065F926 /* sms_template.txt in Resources */,
 				DA9EF6731BC729FA0063DA07 /* bankcheck.png in Resources */,
 				DA9EF6741BC729FA0063DA07 /* flash_off@2x.png in Resources */,
-				DA3C75BE1D288FF100119510 /* Localizable.strings in Resources */,
 				DA9EF6751BC729FA0063DA07 /* icon_wallet@3x.png in Resources */,
 				DA3C7A921C2E3F4000599E3D /* plugin_icon_homedepot@2x.png in Resources */,
 				DA3C7A8E1C2E3E7A00599E3D /* plugin_icon_wholefoods@2x.png in Resources */,
@@ -4271,6 +4268,7 @@
 				DA9EF6A41BC729FA0063DA07 /* btn_collapse_expand.png in Resources */,
 				DA49029B1D1F3BEC00F34324 /* MiniDropDownAlertView.xib in Resources */,
 				DA9EF6A51BC729FA0063DA07 /* WalletExportQuicken.QIF in Resources */,
+				DAF024C31DB2C10B00FF815F /* barcode-bracket@2x.png in Resources */,
 				DA9EF6A71BC729FA0063DA07 /* FadingAlertViewNew.xib in Resources */,
 				DA9EF6A81BC729FA0063DA07 /* BitcoinSent.mp3 in Resources */,
 				DA9EF6A91BC729FA0063DA07 /* QR-bracket.png in Resources */,
@@ -4282,6 +4280,7 @@
 				DA9EF6B01BC729FA0063DA07 /* icon_category_shopping@2x.png in Resources */,
 				DADFAC5F1D29F59C006798D5 /* transaction_details.html in Resources */,
 				DABA012E1C111D59008702AB /* plugin_icon_target@2x.png in Resources */,
+				DA26CE9A1D72489D00051F41 /* Localizable.strings in Resources */,
 				DA9EF6B11BC729FA0063DA07 /* btn_add@4x.png in Resources */,
 				DA9EF6B21BC729FA0063DA07 /* bd_icon_phone@2x.png in Resources */,
 				DADFAC2F1D29F59C006798D5 /* email_template.html in Resources */,
@@ -4293,6 +4292,7 @@
 				DA9EF6B51BC729FA0063DA07 /* icon_send.png in Resources */,
 				DA9EF6B61BC729FA0063DA07 /* flash-on@2x.png in Resources */,
 				DA9EF6B71BC729FA0063DA07 /* btn_collapse_expand@2x.png in Resources */,
+				DA3508321D67670C00041EB1 /* bitrefill.html in Resources */,
 				DA57A13C1D1309C4005442AF /* WalletHeaderView~iphone.xib in Resources */,
 				DA9EF6B81BC729FA0063DA07 /* icon_send_padded@2x.png in Resources */,
 				DA9EF6B91BC729FA0063DA07 /* bd_icon_yelp@2x.png in Resources */,
@@ -4366,7 +4366,6 @@
 				DA57A1F31D131CAD005442AF /* CalculatorView~iphone.xib in Resources */,
 				DA9EE4A71BC61F920063DA07 /* icon_logout@3x.png in Resources */,
 				DA9EE4C81BC61F920063DA07 /* icon_wallet.png in Resources */,
-				DAB06AE91D16D01800050098 /* Airbitz-InfoPlist.strings in Resources */,
 				DA9EE4AE1BC61F920063DA07 /* icon_request.png in Resources */,
 				DA10BDE11C00280E0086AD8B /* foldapp.html in Resources */,
 				DA9EE4871BC61F920063DA07 /* icon_category_atm.png in Resources */,
@@ -4486,7 +4485,6 @@
 				DAE5464B1D29F6780065F926 /* sms_template.txt in Resources */,
 				DA9102081C4A71EA00603D62 /* eyeball.png in Resources */,
 				DA9EE5071BC61F920063DA07 /* bankcheck.png in Resources */,
-				DA3C75BC1D288FF100119510 /* Localizable.strings in Resources */,
 				DA9EE46F1BC61F920063DA07 /* flash_off@2x.png in Resources */,
 				DA9EE4CA1BC61F920063DA07 /* icon_wallet@3x.png in Resources */,
 				DA57A13E1D131417005442AF /* ScanView~iphone.xib in Resources */,
@@ -4536,20 +4534,20 @@
 				DA9EE4791BC61F920063DA07 /* ico_nav_directory_dark@2x.png in Resources */,
 				DA9EE0C41BC61F920063DA07 /* AnnotationContentView.xib in Resources */,
 				DABA01281C111982008702AB /* plugin_icon_coffee@2x.png in Resources */,
+				DAF024C11DB2C10B00FF815F /* barcode-bracket@2x.png in Resources */,
 				DA9EE4A41BC61F920063DA07 /* icon_location@2x.png in Resources */,
 				DA9EE4801BC61F920063DA07 /* icon_approved.png in Resources */,
 				DA9EE44D1BC61F920063DA07 /* btn_collapse_expand.png in Resources */,
 				DA9EE5051BC61F920063DA07 /* WalletExportQuicken.QIF in Resources */,
 				DA9EE0D41BC61F920063DA07 /* FadingAlertViewNew.xib in Resources */,
-				DA4977851D226054006521D2 /* Airbitz-Testnet-InfoPlist.strings in Resources */,
 				DA9EE4E41BC61F920063DA07 /* BitcoinSent.mp3 in Resources */,
 				DA9EEFB81BC724B00063DA07 /* QR-bracket.png in Resources */,
 				DA9EE4361BC61F920063DA07 /* bitCoinAnnotation@2x.png in Resources */,
 				DA9EE48C1BC61F920063DA07 /* icon_category_coffee_tea@3x.png in Resources */,
 				DA9EE49D1BC61F920063DA07 /* icon_exchange.png in Resources */,
 				DA9ED7EB1BC61E680063DA07 /* San Diego.gpx in Resources */,
+				DA26CE981D72489D00051F41 /* Localizable.strings in Resources */,
 				DADFAC5D1D29F59C006798D5 /* transaction_details.html in Resources */,
-				DA4977831D226054006521D2 /* Airbitz-Develop-InfoPlist.strings in Resources */,
 				DA9EE4551BC61F920063DA07 /* btn_export.png in Resources */,
 				DA9EE4971BC61F920063DA07 /* icon_category_shopping@2x.png in Resources */,
 				DADFAC2D1D29F59C006798D5 /* email_template.html in Resources */,
@@ -4603,14 +4601,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		07AA425DC801DD902C371688 /* 📦 Check Pods Manifest.lock */ = {
+		07AA425DC801DD902C371688 /* uD83DuDCE6 Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "\uD83D\uDCE6 Check Pods Manifest.lock";
+			name = "uD83DuDCE6 Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -4618,14 +4616,14 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		0AF405240848F7D4E657A31C /* 📦 Copy Pods Resources */ = {
+		0AF405240848F7D4E657A31C /* uD83DuDCE6 Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "\uD83D\uDCE6 Copy Pods Resources";
+			name = "uD83DuDCE6 Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -4633,14 +4631,29 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Airbitz/Pods-Airbitz-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		148495570A5C654A9580E66E /* 📦 Embed Pods Frameworks */ = {
+		0EF999E02DE12E9F3996B6EC /* 📦 Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "\uD83D\uDCE6 Embed Pods Frameworks";
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		148495570A5C654A9580E66E /* uD83DuDCE6 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "uD83DuDCE6 Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -4648,14 +4661,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Airbitz-Testnet/Pods-Airbitz-Testnet-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		362598A803D456F4E4BF374A /* 📦 Copy Pods Resources */ = {
+		2EC4A662EF02880A27A5993B /* 📦 Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "\uD83D\uDCE6 Copy Pods Resources";
+			name = "📦 Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -4663,14 +4676,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Airbitz-Testnet/Pods-Airbitz-Testnet-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		77521873930B17B23434AFD3 /* 📦 Copy Pods Resources */ = {
+		304C82C1076D8CA8C89E01B8 /* 📦 Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "\uD83D\uDCE6 Copy Pods Resources";
+			name = "📦 Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -4678,14 +4691,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Airbitz-Develop/Pods-Airbitz-Develop-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8098D09DC906C087001E94A0 /* 📦 Check Pods Manifest.lock */ = {
+		36185E2FCBC1542FB7BEE6E1 /* 📦 Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "\uD83D\uDCE6 Check Pods Manifest.lock";
+			name = "📦 Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -4693,14 +4706,44 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		84E4F0AEEF0E1054D0334101 /* 📦 Check Pods Manifest.lock */ = {
+		362598A803D456F4E4BF374A /* uD83DuDCE6 Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "\uD83D\uDCE6 Check Pods Manifest.lock";
+			name = "uD83DuDCE6 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Airbitz-Testnet/Pods-Airbitz-Testnet-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B3AF4AE172796DA27F53DF5 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Airbitz/Pods-Airbitz-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46B0B9D5591E42E896DB53E0 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -4708,29 +4751,29 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		A4A2902C0CC41F6230966708 /* 📦 Check Pods Manifest.lock */ = {
+		4CAE7B5AA63F0F42B417762B /* 📦 Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "\uD83D\uDCE6 Check Pods Manifest.lock";
+			name = "📦 Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Airbitz-OSX/Pods-Airbitz-OSX-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		AC39B6D1FB9EDE1712613FD4 /* 📦 Embed Pods Frameworks */ = {
+		4D1411765C8B62805AE86C22 /* 📦 Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "\uD83D\uDCE6 Embed Pods Frameworks";
+			name = "📦 Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -4738,29 +4781,89 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Airbitz/Pods-Airbitz-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C8206127E5601AA2C80919B3 /* 📦 Embed Pods Frameworks */ = {
+		656EB90AAC0A5CD7943330A3 /* 📦 Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "\uD83D\uDCE6 Embed Pods Frameworks";
+			name = "📦 Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Airbitz-Develop/Pods-Airbitz-Develop-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Airbitz-Testnet/Pods-Airbitz-Testnet-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		EB1F9F1B010317F8520994B9 /* 📦 Copy Pods Resources */ = {
+		77521873930B17B23434AFD3 /* uD83DuDCE6 Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "\uD83D\uDCE6 Copy Pods Resources";
+			name = "uD83DuDCE6 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Airbitz-Develop/Pods-Airbitz-Develop-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8098D09DC906C087001E94A0 /* uD83DuDCE6 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "uD83DuDCE6 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		84E4F0AEEF0E1054D0334101 /* uD83DuDCE6 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "uD83DuDCE6 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A4A2902C0CC41F6230966708 /* uD83DuDCE6 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "uD83DuDCE6 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AA20A8E95F2846F43DCC4CD0 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -4768,14 +4871,89 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Airbitz-OSX/Pods-Airbitz-OSX-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F736412B2F002033811E3ECD /* 📦 Embed Pods Frameworks */ = {
+		AC39B6D1FB9EDE1712613FD4 /* uD83DuDCE6 Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "\uD83D\uDCE6 Embed Pods Frameworks";
+			name = "uD83DuDCE6 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Airbitz/Pods-Airbitz-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C782C142C05CBA2C42285091 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C8206127E5601AA2C80919B3 /* uD83DuDCE6 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "uD83DuDCE6 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Airbitz-Develop/Pods-Airbitz-Develop-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4AB2D4B32648E8C3AEB7904 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Airbitz-Develop/Pods-Airbitz-Develop-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB1F9F1B010317F8520994B9 /* uD83DuDCE6 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "uD83DuDCE6 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Airbitz-OSX/Pods-Airbitz-OSX-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F736412B2F002033811E3ECD /* uD83DuDCE6 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "uD83DuDCE6 Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -4963,6 +5141,8 @@
 				3464426A362C97FF7C89103B /* SignUpPINController.m in Sources */,
 				34644D9C4171CC241B6B1609 /* AB.m in Sources */,
 				34644112A906FC0EC6F8E9DC /* Affiliate.m in Sources */,
+				DAD4B5E21D70065E00C1E320 /* UtilityTableViewController.m in Sources */,
+				34644D40356AA8C0D8E15A4C /* SSOViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5102,6 +5282,8 @@
 				346444E4A468604A4B66F175 /* SignUpPINController.m in Sources */,
 				3464491590D9099322E3B5CE /* AB.m in Sources */,
 				3464490D4883ED4ADC6E6A18 /* Affiliate.m in Sources */,
+				DAD4B5E31D70065E00C1E320 /* UtilityTableViewController.m in Sources */,
+				34644E64D77421AA50F21575 /* SSOViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5241,6 +5423,8 @@
 				346441D46B7AA497A77A5758 /* SignUpPINController.m in Sources */,
 				346442FF5C0981D87A7C8AB0 /* AB.m in Sources */,
 				34644BA757EFF80569B02240 /* Affiliate.m in Sources */,
+				DAD4B5E11D70065E00C1E320 /* UtilityTableViewController.m in Sources */,
+				34644F45643AEC0C4EC77298 /* SSOViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5291,15 +5475,15 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DA3C75B51D288FF100119510 /* Localizable.strings */ = {
+		DA26CE911D72489D00051F41 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DA3C75B61D288FF100119510 /* zh-Hans */,
-				DA3C75B71D288FF100119510 /* hi */,
-				DA3C75B81D288FF100119510 /* es */,
-				DA3C75B91D288FF100119510 /* de */,
-				DA3C75BA1D288FF100119510 /* pt */,
-				DA3C75BB1D288FF100119510 /* fr */,
+				DA26CE921D72489D00051F41 /* zh-Hans */,
+				DA26CE931D72489D00051F41 /* de */,
+				DA26CE941D72489D00051F41 /* es */,
+				DA26CE951D72489D00051F41 /* hi */,
+				DA26CE961D72489D00051F41 /* fr */,
+				DA26CE971D72489D00051F41 /* pt */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -5482,48 +5666,6 @@
 				DAB06B881D1A7F2800050098 /* zh-Hans */,
 			);
 			name = MainInterface.storyboard;
-			sourceTree = "<group>";
-		};
-		DAB06AE71D16D01800050098 /* Airbitz-InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DAB06AE81D16D01800050098 /* Base */,
-				DAB06AF01D16D04000050098 /* es */,
-				DAB06AF11D16D04300050098 /* pt */,
-				DAB06AF31D16D04400050098 /* hi */,
-				DAB06AF41D16D04500050098 /* fr */,
-				DAB06AF51D16D04600050098 /* de */,
-				DAB06B461D1722FE00050098 /* zh */,
-			);
-			name = "Airbitz-InfoPlist.strings";
-			sourceTree = "<group>";
-		};
-		DAB06AEA1D16D02100050098 /* Airbitz-Develop-InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DAB06AEB1D16D02100050098 /* Base */,
-				DAB06AF61D16D04900050098 /* es */,
-				DAB06AF81D16D04C00050098 /* pt */,
-				DAB06AF91D16D04E00050098 /* hi */,
-				DAB06AFA1D16D04E00050098 /* fr */,
-				DAB06AFB1D16D04F00050098 /* de */,
-				DAB06B451D1722F400050098 /* zh */,
-			);
-			name = "Airbitz-Develop-InfoPlist.strings";
-			sourceTree = "<group>";
-		};
-		DAB06AED1D16D02A00050098 /* Airbitz-Testnet-InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DAB06AEE1D16D02A00050098 /* Base */,
-				DAB06AFC1D16D05300050098 /* es */,
-				DAB06AFD1D16D05400050098 /* pt */,
-				DAB06AFF1D16D05600050098 /* hi */,
-				DAB06B001D16D05700050098 /* fr */,
-				DAB06B011D16D05800050098 /* de */,
-				DAB06B471D17230900050098 /* zh */,
-			);
-			name = "Airbitz-Testnet-InfoPlist.strings";
 			sourceTree = "<group>";
 		};
 		DADFAC061D29F59C006798D5 /* email_template_simple.html */ = {

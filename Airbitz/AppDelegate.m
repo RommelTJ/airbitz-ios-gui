@@ -45,7 +45,7 @@ UIBackgroundTaskIdentifier bgNotificationTask;
 
     [AudioController initAll];
 
-    abc = [ABCContext makeABCContext:AIRBITZ_CORE_API_KEY hbits:HIDDENBITZ_KEY];
+    abc = [ABCContext makeABCContext:AIRBITZ_CORE_API_KEY type:@"account:repo:co.airbitz.wallet" hbits:HIDDENBITZ_KEY];
 
     // Reset badges to 0
     application.applicationIconBadgeNumber = 0;
@@ -133,6 +133,7 @@ UIBackgroundTaskIdentifier bgNotificationTask;
     UIApplication*    app = [UIApplication sharedApplication];
     
     [LocalSettings saveAll];
+    [abc enterBackground];
 
     bgNotificationTask = [application beginBackgroundTaskWithExpirationHandler:^{
         [self bgNotificationCleanup];
@@ -157,10 +158,10 @@ UIBackgroundTaskIdentifier bgNotificationTask;
                 }
             }
             while (time > 10);
-            
+
             if (bgNotificationTask != UIBackgroundTaskInvalid)
             {
-                [abc enterBackground];
+                [abc startSuspend];
                 [self bgNotificationCleanup];
             }
         }
