@@ -1534,6 +1534,7 @@ MainViewController *singleton;
 
 - (void) abcAccountAccountChanged;
 {
+    NSLog(@"updateWidgetQRCode: abcAccountAccountChanged");
     [self updateWidgetQRCode];
     [[NSNotificationCenter defaultCenter] postNotificationName:NOTIFICATION_WALLETS_CHANGED object:self userInfo:nil];
     [[NSNotificationCenter defaultCenter] postNotificationName:NOTIFICATION_DATA_SYNC_UPDATE object:self];
@@ -1677,8 +1678,13 @@ MainViewController *singleton;
 
 - (void)updateWidgetQRCode;
 {
+    NSLog(@"updateWidgetQRCode: Here 1");
+    NSLog(@"updateWidgetQRCode: Here 1: %@", abcAccount.currentWallet);
+    NSLog(@"updateWidgetQRCode: Here 1: %@", abcAccount.currentWallet.uuid);
     if (!abcAccount.currentWallet || !abcAccount.currentWallet.uuid)
         return;
+    
+    NSLog(@"updateWidgetQRCode: Here 2");
     
     [abcAccount.currentWallet createNewReceiveAddress:^(ABCReceiveAddress *receiveAddress)
     {
@@ -1690,6 +1696,7 @@ MainViewController *singleton;
         static NSUserDefaults *tempSharedUserDefs = nil;
         
         if (!tempSharedUserDefs) tempSharedUserDefs = [[NSUserDefaults alloc] initWithSuiteName:APP_GROUP_ID];
+        NSLog(@"updateWidgetQRCode: This is running on : %@", APP_GROUP_ID);
         
         NSData *imageData = UIImagePNGRepresentation(receiveAddress.qrCode);
         

@@ -31,6 +31,8 @@
     if (! self.appGroupSharedUserDefs)
         self.appGroupSharedUserDefs= [[NSUserDefaults alloc] initWithSuiteName:APP_GROUP_ID];
     
+    NSLog(@"APP GROUP ID:%@",APP_GROUP_ID);
+    
     self.qrCodeImage.layer.magnificationFilter = kCAFilterNearest;
     self.preferredContentSize = CGSizeMake(0, 250);
     self.qrViewBackground.layer.cornerRadius = 8;
@@ -67,6 +69,8 @@
 
     // Perform any setup necessary in order to update the view.
     NSData *imageData = [self.appGroupSharedUserDefs objectForKey:APP_GROUP_LAST_QR_IMAGE_KEY];
+    
+    NSLog(@"appGroupSharedUserDefs:%@",imageData);
     
     UIImage *qrImage = [UIImage imageWithData:imageData];
     
